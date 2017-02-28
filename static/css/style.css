@@ -1,0 +1,110 @@
+.nopadding, div {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+
+
+/*MOBILE*/
+
+.container {
+    padding: 0;
+}
+
+.navbar-header {
+    background-color: #4A91D2;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+h1 {
+    display: none;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+header #mainpic {
+    width: 100%;
+}
+
+/*.premier */
+
+h2 {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.premier article {
+    flex-wrap: wrap;
+    padding: 1em;
+    text-align: center;
+}
+
+article p {
+    text-align: center;
+}
+
+.btn-default {
+    background-color: red;
+    color: white;
+}
+
+
+/*.deuxieme*/
+
+div.col-md-4:nth-child(1) > article:nth-child(1) {
+    margin-top: 2em;
+}
+
+.deuxieme article {
+    background-image: url("../images/fond-article.png");
+    padding: 0.5em;
+    margin: 0.25em 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.deuxieme img {
+    padding: 1em;
+}
+
+.texte {
+    padding: 1em;
+    text-align: center;
+}
+
+
+/*div pad and mar*/
+
+
+h1 {
+    text-align: center;
+}
+
+
+/*button */
+
+.btn-default {
+
+}
+
+/*sidebars*/
+
+.second ul {
+    display: block;
+}
+
+.col-sm-12 > main:nth-child(1) > img:nth-child(3) {
+    width: 100%
+}
+
+/*footer*/
+
+.rights {
+    display: flex;
+    justify-content: center;
+}
