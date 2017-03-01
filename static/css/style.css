@@ -30,6 +30,7 @@ div.row:nth-child(2), div.row:nth-child(3), .backimg {
 
 h1 {
     display: none;
+    text-transform: uppercase;
 }
 
 .navbar {
