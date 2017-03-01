@@ -3,6 +3,11 @@
    margin: 0 !important;
 }
 
+* {
+    font-family: Arial;
+    color: #525252;
+}
+
 
 
 /*MOBILE*/
@@ -31,6 +36,10 @@ header #mainpic {
     width: 100%;
 }
 
+.nav li {
+    margin-left: 2em;
+}
+
 /*.premier */
 
 h2 {
@@ -49,6 +58,8 @@ article p {
 }
 
 .btn-default {
+    border: none;
+    border-radius: 5px;
     background-color: red;
     color: white;
 }
@@ -77,6 +88,82 @@ div.col-md-4:nth-child(1) > article:nth-child(1) {
     text-align: center;
 }
 
+/*MAIN*/
+
+main {
+    padding: 1em;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.col-sm-12 > main:nth-child(1) > p:nth-child(2) {
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #FF0000;
+}
+
+.col-sm-12 > main:nth-child(1) > p:nth-child(4) {
+    margin: 1em 0;
+}
+
+button.btn:nth-child(5) {
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1.5em;
+}
+
+/*SIDEBAR 1 AND 2*/
+
+.first, .second {
+    padding: 1em;
+}
+
+h5 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+.first p {
+    text-align: left;
+}
+
+label {
+    background-color: #FF0000;
+    color: white;
+    padding: 0.5em;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+.first article {
+    border-bottom: solid 0.5px rgb(148, 148, 148);
+    border-bottom-width: thin;
+    margin-bottom: 1em;
+}
+
+.second ul {
+    padding: 0;
+}
+
+.second li {
+    list-style: none;
+    text-align: left;
+    margin: 0.9em 0;
+    border-bottom: solid 0.5px rgb(148, 148, 148);
+}
+
+.second a {
+    color: black;
+    font-weight: normal;
+}
+
+
 
 /*div pad and mar*/
 
@@ -104,7 +191,86 @@ h1 {
 
 /*footer*/
 
+h6 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 .rights {
+    background-image: url(../images/bas-de-page.png);
     display: flex;
     justify-content: center;
+}
+
+footer {
+    background-image: url(../images/footer.png);
+}
+
+#one {
+    padding: 1em;
+}
+
+#one p {
+    background-image: url(../images/citation.jpg);
+    font-style: italic;
+    padding: 1em;
+}
+
+
+
+#two {
+    padding: 1em;
+}
+
+#two p, span {
+    text-align: left;
+
+}
+
+#two p {
+    font-size: 1em;
+    font-weight: bold;
+    border-top: solid 0.5px rgb(193, 193, 193);
+    padding-top: 1em;
+    margin-top: 1em;
+}
+
+#two > p:nth-child(2) {
+    border: none;
+}
+
+#two span {
+    font-size: 1em;
+    font-style: italic;
+}
+
+#three {
+    margin-top: 2em;
+
+}
+
+#three section {
+    width: 52.5%;
+    margin: auto;
+}
+
+button.btn:nth-child(3) {
+    margin-top: 1em;
+    text-align: center;
+    margin-left: 8em;
+
+}
+
+#four {
+    padding: 2em;
+}
+
+#four p {
+    font-weight: bold;
+}
+
+.rights > p:nth-child(1) {
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
