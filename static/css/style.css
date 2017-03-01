@@ -310,7 +310,5 @@ button.btn:nth-child(3) {
 /*WEB*/
 
 @media (min-width: @screen-md-min) {
-    body {
-        
-    }
+    
 }
