@@ -30,6 +30,7 @@ div.row:nth-child(2), div.row:nth-child(3), .backimg {
 
 h1 {
     display: none;
+    text-transform: uppercase;
 }
 
 .navbar {
@@ -146,7 +147,6 @@ h5 {
 
 label {
     background: linear-gradient(red, yellow, green);
-
     color: white;
     padding: 0.5em;
     font-weight: normal;
